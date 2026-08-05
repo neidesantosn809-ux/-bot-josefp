@@ -20,7 +20,7 @@ import random
 import requests
 from bs4 import BeautifulSoup
 
-DISCORD_TOKEN = "MTUzNDQxNTM3ODM2MzcxMTUyOA.G1MCzt.ZmOoierZL7twgtWk7X_qCUz0EvAd5-UVA8dmU4"
+DISCORD_TOKEN = "MTUzNDQxNTM3ODM2MzcxMTUyOA.Gvzjgf.BZCDzh_ttSVWmW8FfpHrRaqxBcAaePqH0IPA44"
 SERPER_API_KEY = "2bc35519fe409f4d50920fbf08f7679414f9026c"
 
 PREFIXO = "!"
