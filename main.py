@@ -1,3 +1,10 @@
+import os
+import discord
+from discord.ext import commands
+import random
+import requests
+from bs4 import BeautifulSoup
+
 # ===== MANTER 24H ONLINE =====
 from flask import Flask
 from threading import Thread
@@ -20,7 +27,7 @@ import random
 import requests
 from bs4 import BeautifulSoup
 
-DISCORD_TOKEN = "MTUzNDQxNTM3ODM2MzcxMTUyOA.Gvzjgf.BZCDzh_ttSVWmW8FfpHrRaqxBcAaePqH0IPA44"
+DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
 SERPER_API_KEY = "2bc35519fe409f4d50920fbf08f7679414f9026c"
 
 PREFIXO = "!"
